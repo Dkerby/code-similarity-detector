@@ -1,7 +1,7 @@
 # Code Similarity Detector
 
 ## Description
-This tool allows the user to pass in two git repository URLs in order to find similar files in both of them using levenshtein edit distance. A specific use case of this tool is to detect when smart contract code has been reused, therefore the default behavior of this to search for Solidity files in each repository. However, the tool has the functionality to search for similar files of different file types and use a different threshold value for similarity detection. See the CLI parameters section for more info.
+This tool allows the user to pass in two git repository URLs in order to find similar files in both of them using levenshtein edit distance. A specific use case of this tool is to detect when smart contract code has been reused, therefore the default behavior is to search for Solidity files in each repository. However, the tool has the functionality to search for similar files of different file types and use a different threshold value for similarity detection. See the CLI parameters section for more info.
 
 ## Dependencies
 
