@@ -1,0 +1,37 @@
+{
+  "name": "code-similarity-detector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dkerby/code-similarity-detector.git"
+  },
+  "keywords": [],
+  "author": "Drew Kerby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dkerby/code-similarity-detector/issues"
+  },
+  "homepage": "https://github.com/Dkerby/code-similarity-detector#readme",
+  "dependencies": {
+    "commander": "^8.1.0",
+    "fast-levenshtein": "^3.0.0",
+    "levenshtein-edit-distance": "^3.0.0",
+    "reflect-metadata": "^0.1.13",
+    "typedi": "^0.10.0",
+    "walk": "^2.3.14"
+  },
+  "devDependencies": {
+    "@types/fast-levenshtein": "^0.0.2",
+    "@types/node": "^16.7.2",
+    "@types/walk": "^2.3.1",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.2"
+  }
+}
