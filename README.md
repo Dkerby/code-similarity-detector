@@ -28,6 +28,8 @@ npm run build
 Finally, we can move into the ./dist folder and execute our code, using Uniswap and Viperswap as examples, with the default threshold value of 80.
 
 ```sh
+cd dist
+
 node index.js -a "https://github.com/VenomProtocol/venomswap-core.git" -b "https://github.com/Uniswap/uniswap-v2-core.git"
 ```
 ## CLI Parameters
